@@ -1,0 +1,78 @@
+<!--Version of html-->
+<!DOCTYPE html>
+<!--Page Language-->
+<html lang="en">
+
+<!--Meta data for the page-->
+
+<head>
+    <!--Characters used in page-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Name shown on tab-->
+    <title>My first Website</title>
+    <!--facicon-->
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
+    <!--Normalizer File-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--HTML Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Lato Font from google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!--CSS style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+   <!--Navigation bar-->
+   <header class="page-header">
+    <img src="img\portfolio-picture-name.png" alt="picture of my name Alvin Buholzer" class="page-header__item">
+    <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item--active">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a> 
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+          </li>
+        </ul>
+      </nav>
+</header>
+
+    <h1>Contacts</h1>
+
+    <div>
+        1 city hall square<br>
+        suite 500<br>
+        Boston, MA 02201-2013<br>
+        United States of America<br>
+        <br>
+        Telephone <a href="tel:+1 234 234 3849">Call +1 234 234 3849</a><br>
+        Skype <a href="skype:hello.exampleskype"> hello.exampleskype</a><br>
+        <a href="example@gmail.com">example@gmail.com</a><br>
+        <a href="example@gmail.com">Contact me</a>
+    </div>
+
+    <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">Email: </label>
+        <input type="email" id="contact-email" required>
+
+        <label class="standard-label" for="contact-tel-number">Telephone: </label>
+        <input type="tel" id="contact-tel-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+        <label class="standard-label" for="contact-message">Message: </label>
+        <textarea required maxlength="240" id="contact-message"></textarea>
+        <input type="submit" value="Send message">
+    </form>
+
+    <script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>
