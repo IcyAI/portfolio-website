@@ -201,6 +201,10 @@ button:focus,
   border-radius: 50%;
 }
 
+.work-heading-center {
+  text-align: center;
+}
+
 /* index footer class */
 
 .page-footer {
