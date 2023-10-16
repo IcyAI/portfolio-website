@@ -81,6 +81,7 @@ header {
 
 .about-content-list {
   list-style-type: none;
+  display: inline;
 }
 
 h1 {
