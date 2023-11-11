@@ -283,6 +283,13 @@ button:focus,
 
 /* about me page animation */
 
+#about-picture {
+  display: block;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+}
+
 @-webkit-keyframes color-change {
   0% {
     fill: #edc655;
