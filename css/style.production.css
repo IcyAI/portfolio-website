@@ -262,6 +262,7 @@ button:focus,
   width: auto;
   min-height: auto;
   margin: 0;
+  padding: 10px;
 }
 
 .grid__item:last-child {
