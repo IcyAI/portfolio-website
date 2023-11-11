@@ -213,7 +213,8 @@ button:focus,
 
 .profile__portrait {
   float: left;
-  width: 250px;
+  width: 230px;
+  height: 230px;
   margin-right: 40px;
   border-radius: 50%;
 }
