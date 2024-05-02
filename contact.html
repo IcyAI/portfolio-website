@@ -21,7 +21,7 @@
     <!--Lato Font from google font-->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <!--CSS style sheet-->
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="css\style.production.css">
 </head>
 
 <body>
@@ -57,21 +57,35 @@
         <br>
         Telephone <a href="tel:+12342343849">Call +1 234 234 3849</a><br>
         Skype <a href="skype:hello.exampleskype"> hello.exampleskype</a><br>
-        <a href="example@gmail.com">example@gmail.com</a><br>
-        <a href="example@gmail.com">Contact me</a>
+        email <a href="example@gmail.com">example@gmail.com</a><br>
+        
     </div>
 
-    <form action="" method="post" id="contact-form">
-        <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required>
+    <div class="contact-form">
+      <form action="" method="post" id="contact-form">
 
-        <label class="standard-label" for="contact-tel-number">Telephone: </label>
-        <input type="tel" id="contact-tel-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+        <ul class="contacts-list">
 
-        <label class="standard-label" for="contact-message">Message: </label>
-        <textarea required maxlength="240" id="contact-message"></textarea>
-        <input type="submit" value="Send message">
+          <li class="contact-list-items">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" required>
+          </li>
+
+          <li class="contact-list-items">          
+          <label class="standard-label" for="contact-tel-number">Telephone: </label>
+          <input type="tel" id="contact-tel-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+          </li>
+
+          <li class="contact-list-items">          
+          <label class="standard-label" for="contact-message">Message: </label>
+          <textarea required maxlength="240" id="contact-message"></textarea>
+          <input class="contact-button" type="submit" value="Send message">
+          </li>
+
+        </ul>
+
     </form>
+    </div>
 
   </div>
 
