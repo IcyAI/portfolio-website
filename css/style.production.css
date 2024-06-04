@@ -242,8 +242,8 @@ button:focus,
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact-form {
@@ -324,6 +324,11 @@ button:focus,
 
 .work-images {
   width: 100%;
+  height: 300px;
+}
+
+.work-images-chat-app {
+  width: 50%;
   height: 300px;
 }
 
