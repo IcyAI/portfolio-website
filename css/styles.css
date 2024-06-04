@@ -315,6 +315,11 @@ button:focus,
   height: 300px;
 }
 
+.work-images-chat-app {
+  width: 50%;
+  height: 300px;
+}
+
 /* about me page animation */
 
 #about-picture {
