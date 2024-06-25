@@ -1,5 +1,5 @@
-# Descrition
-This project is a website that host all of my work during my CareerFoundry Web Development course. The website also has some information about me and my social media pages.
+# Description
+This project is a website that hosts all of my work during my CareerFoundry Web Development course. The website also has some information about me and my social media pages.
 The website also has links to some of my projects that are hosted on servers or through github pages.
 
 # Link to Project
